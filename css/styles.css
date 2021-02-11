@@ -22,8 +22,8 @@ h2 {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image:linear-gradient(to right, #5637DD,
-    #3046C5, #60106B);
+    background-image:linear-gradient(to left, #325cce,
+    #3076c5, #1b5c88);
     color: white;
 }
 
@@ -34,11 +34,19 @@ h2 {
 }
 
 .navbar-dark {
-    background-color: #901CAD;
+    background-color: #035096;
 }
 
 .tab-content {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD; 
 }
